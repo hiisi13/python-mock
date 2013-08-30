@@ -2,6 +2,13 @@ python-mock
 ===========
 
 git mirror of http://code.google.com/p/mock/ with tweaks
+
+___
+
+#### Differences from original repository
+
+- added **Mock.assert_never_called** - asserts the mock has never been called. The same would be achieved using Mock.assert_has_calls([]), but new method offers better semantics for this case.
+
 ___
 
 **mock** is a library for testing in Python. It allows you to replace parts of
